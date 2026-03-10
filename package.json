@@ -17,6 +17,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
     "release-package": "npm run build && npx changeset publish"
